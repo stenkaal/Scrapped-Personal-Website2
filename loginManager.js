@@ -32,7 +32,7 @@ function verify()
             }
             else if (!emailPattern.test(email))
             {
-                alert("Ogiltikt email!")
+                alert("Invalid email!")
             }
             else
             {

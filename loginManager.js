@@ -27,7 +27,7 @@ function verify()
 
             if (e1 == e2 && p1 == p2)
             {   
-                window.location.replace("Content/content.html");
+                window.location.replace("index.html");
                 clearing();
             }
             else if (!emailPattern.test(email))

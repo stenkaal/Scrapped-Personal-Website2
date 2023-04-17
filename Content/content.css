@@ -13,4 +13,5 @@
     flex-direction: row;
     justify-content: space-evenly;
     text-align: right;
+    padding: 14px;
 }

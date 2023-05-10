@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome! | Sten Kaal</title>
-    <link rel="stylesheet" href="Content/content.css">
+    <link rel="stylesheet" href="index.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="Bilder/bxl-graphql.svg"> 
 </head>
@@ -16,8 +16,8 @@
             <h2>Sten Kaal</h2>
         </div>
     </div>
-    <nav class="navBar">
-        <input onclick="darkMode()" value="Dark Mode" type="button" id="thisButton1"></input>
+    <nav class="navBar" id="Bar">
+        <input onclick="darkMode()" value="Light Mode" type="button" id="thisButton1" style="color: white;"></input>
         <a href="login.html" id="auth">Log In</a>
         <a href="signup.html" id="auth2">Sign Up</a>
     </nav>
@@ -25,19 +25,32 @@
         <div class="navCards">
             <div id="navCard">
                 <div id="trees">
-                    <a href="#">Fiskar</a>
+                    <a href="#">
+                        <figure>
+                            <img src="Bilder/pexels-wendy-wei-1555900 (1).jpg" alt="Fin skog">
+                            <figcaption>Project</figcaption>
+                        </figure>
+                    </a>
                 </div>
             </div>
             <div id="navCard">
                 <div id="water">
-                    <a href="#">Mer Fiskar</a>
+                    <a href="#">
+                        <figure>
+                            <img src="Bilder/pexels-luis-quintero-1759531.jpg" alt="Fint Hav">
+                            <figcaption>Om mig</figcaption>
+                        </figure>
+                    </a>
                 </div>
             </div>
             <div id="navCard">
                 <div id="fire">
-                    <a target="_blank" href="img_forest.jpg">
-                        Mer om fiskar
-                      </a>
+                    <a href="OmMig/OmMig.html">
+                        <figure>
+                            <img src="Bilder/pexels-tom-swinnen-1309766.jpg" alt="En vulkan med lava">
+                            <figcaption>CV</figcaption>
+                        </figure>
+                    </a>
                 </div>
             </div>
         </div>
@@ -45,6 +58,6 @@
     <footer>
 
     </footer>
-    <script src="Content/content.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

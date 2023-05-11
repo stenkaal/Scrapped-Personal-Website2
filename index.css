@@ -112,7 +112,7 @@ figure {
     -webkit-mask-clip: text, padding-box;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (width >= 500px) {
     figure {
       grid-column-start: 1;
     }

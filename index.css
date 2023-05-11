@@ -1,4 +1,5 @@
 * {
+    overflow: hidden;
     text-decoration: none;
     box-sizing: border-box;
     border: 0;
@@ -36,6 +37,12 @@ nav {
     justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 600px) {
+  .navCard {
+    flex-direction: column;
+  }
+}
+
 #trees, #fire, #water {
     padding: 7px;
 }
@@ -46,6 +53,8 @@ nav {
     padding-left: 4px;
 }
 
+
+/*Logo*/
 .card {
     display: flex;
     height: 100%;
@@ -104,11 +113,12 @@ figure {
   }
 
   @media only screen and (max-width: 600px) {
+    figure {
+      grid-column-start: 1;
+    }
     figure figcaption {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-
+      grid-column-start: 1;
+      --_i: 0%;
     }
   }
 

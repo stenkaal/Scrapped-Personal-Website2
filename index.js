@@ -3,7 +3,7 @@ function darkMode() {
     var button = document.getElementById("thisButton1");
     var auth = document.getElementById("auth");
     var auth2 = document.getElementById("auth2");
-    var bar = document.getElementsByName("Bar");
+    var bar = document.getElementById("bar")
 
     console.log(button.value)
     if (button.value == "Light Mode") 

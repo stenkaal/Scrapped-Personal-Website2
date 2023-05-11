@@ -1,6 +1,6 @@
 * {
-    overflow: hidden;
     text-decoration: none;
+    overflow: hidden;
     box-sizing: border-box;
     border: 0;
     padding: 0;
@@ -31,15 +31,28 @@ nav {
     color: white;
 }
 
+h2 {
+  padding-right: 23rem;
+}
+
 .navCards {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 600px) {
-  .navCard {
+@media only screen and (width <= 600px) {
+  .navCards {
     flex-direction: column;
+  }
+
+  * {
+    overflow: visible;
+  }
+
+  h2 {
+    justify-content: right;
+    padding-right: 0rem;
   }
 }
 
@@ -75,14 +88,6 @@ footer {
 
 }
 
-/*Cards med länkar till sidor*/
-
-.navCard {
-    width: 1000px;
-    height: 1000px;
-}
-
-
 /* Tagen från internet, inte min kod */
 figure {
     display: grid;
@@ -112,7 +117,7 @@ figure {
     -webkit-mask-clip: text, padding-box;
   }
 
-  @media only screen and (width >= 500px) {
+  @media only screen and (width <= 600px) {
     figure {
       grid-column-start: 1;
     }

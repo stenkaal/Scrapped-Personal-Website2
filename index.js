@@ -4,6 +4,7 @@ function darkMode() {
     var auth = document.getElementById("auth");
     var auth2 = document.getElementById("auth2");
     var bar = document.getElementById("bar")
+    var indi = document.getElementById("indi")
 
     console.log(button.value)
     if (button.value == "Light Mode") 
@@ -17,6 +18,7 @@ function darkMode() {
         auth2.style.color = "#000000";
         auth2.style.backgroundColor = "#a0a0a0";
         bar.style.backgroundColor = "#a0a0a0";
+        indi.style.color = "#000000";
     }
     else 
     {
@@ -29,5 +31,6 @@ function darkMode() {
         auth2.style.color = "#ffffff";
         auth2.style.backgroundColor = "#000000";
         bar.style.backgroundColor = "#000000";
+        indi.style.color = "#ffffff";
     }
 }

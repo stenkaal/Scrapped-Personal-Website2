@@ -11,6 +11,9 @@
 nav {
     background-color: #212121;
     color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .navBar > h1 {
@@ -36,18 +39,16 @@ h2 {
 }
 
 .navCards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    
 }
 
 @media only screen and (width <= 600px) {
-  .navCards {
+  .nav {
     flex-direction: column;
     justify-content: center;
   }
 
-  .navCars > img {
+  .nav > img {
     justify-content: center;
   }
 

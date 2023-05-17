@@ -165,31 +165,3 @@ body{
         width: 360px;
     }
 }
-/*--------------------------------------------------------*/
-
-/*Content*/
-/*--------------------------------------------------------*/
-
-.navCard {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    box-shadow: #000000;
-}
-
-#trees {
-    background-image: url("Bilder/Skog.jpg");
-}
-
-#water {
-    background-image: url("Bilder/Vatten.jpg");
-}
-
-#fire {
-    background-image: url("Bilder/Lava.jpg");
-}
-
-
-
-/*--------------------------------------------------------*/

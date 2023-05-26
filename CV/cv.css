@@ -16,7 +16,7 @@ body {
     color: whitesmoke;
 }
 
-body > *:not(h1) {
+body > *:not(h1, h2) {
     margin-top: 20px;
 }
 
@@ -41,7 +41,7 @@ p {
     margin-top: 99px;
 }
 
-.card > h1{
+h2{
     text-decoration:underline 1px white;
 }
 

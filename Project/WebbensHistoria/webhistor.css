@@ -17,14 +17,14 @@ body > *:not(h1){
     margin-top: 20px;
 }
 
-a:not(footer > a){
+a:not(footer > a), input{
     color: aliceblue;
     background-color: rgb(81, 0, 156);
     padding: 8px 16px;
     border-radius: 5px;
 }
 
-a:hover {
+a:hover, input:hover {
     background-color: rgb(178, 125, 227); 
     transition: 0.3s;
 }
@@ -53,3 +53,20 @@ footer {
  footer > a:hover {
     background-color: rgb(178, 125, 227);
  }
+
+ @media only screen and (width <= 1000px) {
+    .netNav > a {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: rgb(81, 0, 156);
+        border-radius: 5px;
+        padding: 8px 16px;
+    }
+
+    a:hover, input:hover {
+        background-color: rgb(178, 125, 227); 
+        transition: 0.3s;
+    }
+}
